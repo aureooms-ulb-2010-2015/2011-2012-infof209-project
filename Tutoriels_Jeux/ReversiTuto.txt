@@ -1,0 +1,39 @@
+DIDACTICIEL REVERSI
+
+(AIDE: Pour parcourir ce didacticiel, utilisez les flèches haut et bas de votre clavier. Pour le quitter, tapez sur la touche "Q").
+
+Le plateau à cet aspect-ci au début du jeu:
+
+  0 1 2 3 4 5 6 7
+0 _ _ _ _ _ _ _ _
+1 _ _ _ _ _ _ _ _
+2 _ _ _ _ _ _ _ _
+3 _ _ _ N B _ _ _
+4 _ _ _ B N _ _ _
+5 _ _ _ _ _ _ _ _
+6 _ _ _ _ _ _ _ _
+7 _ _ _ _ _ _ _ _
+
+Le joueur qui joue avec les pions noirs commence toujours la partie. À tour de rôle, les joueurs posent un pion à l'extrémité d'un alignement de pions adverses et un de ses propres pions. Tous les pions adverses contenus dans cet alignement (quel que soit le sens), se transforment en pions du joueur courant. Par exemple, le joueur aux pions noirs pose un de ses pions en 2,4:
+
+  0 1 2 3 4 5 6 7
+0 _ _ _ _ _ _ _ _
+1 _ _ _ _ _ _ _ _
+2 _ _ _ _ _ _ _ _
+3 _ _ _ N B _ _ _
+4 _ _ N N N _ _ _
+5 _ _ _ _ _ _ _ _
+6 _ _ _ _ _ _ _ _
+7 _ _ _ _ _ _ _ _
+
+La partie se termine quand aucun des joueurs ne peut poser de pion. On compte alors le nombre de pions et le joueur ayant le plus grand nombre de pions de sa couleur a gagné. Par exemple, dans ce cas-ci, Noir gagne la partie avec 44 pions contre 20 pions blancs. 
+
+  0 1 2 3 4 5 6 7
+0 N B N N N N N N
+1 N B B N N N N N
+2 N B N B N B N N
+3 N B B B B N N N
+4 N N B N N B N N
+5 N N N B N B N N
+6 N N B N B B B N
+7 N N N N N B B N

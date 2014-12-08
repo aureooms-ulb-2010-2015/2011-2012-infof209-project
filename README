@@ -1,0 +1,27 @@
+======================================= Compilation =======================================
+
+-> Pour compiler le serveur :
+make Projet_server
+
+
+-> Pour compiler le client console :
+make Projet_client
+
+
+-> Pour compiler le client interface graphique :
+cd Client
+qmake -project
+qmake
+make
+
+======================================= Utilisation =======================================
+
+-> Pour lancer le serveur :
+./Projet_server
+
+-> Pour lancer le client console :
+./Project_client
+
+-> Pour lancer le client interface graphique :
+cd Client
+./Client
